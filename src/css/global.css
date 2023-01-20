@@ -1,0 +1,44 @@
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    height: 3.5rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+
+    background-color: var(--light-grayish-cyan);
+    text-align: end;
+}
+
+.input-container i {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--strong-cyan);
+}
+
+.total .total-title h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    color: var(--white);
+}
+
+.total .total-title h2 > span {
+    font-size: 0.9rem;
+    color: var(--light-grayish-cyan);
+}
+
+.total .total-value p {
+    font-size: 3rem;
+}

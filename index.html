@@ -6,6 +6,13 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/global.css">
 </head>
 
 <body>
@@ -24,7 +31,7 @@
           <label for="bill">Bill</label>
           <div class="input-container">
             <input type="text" name="bill" id="bill">
-            <span>$</span>
+            <i class="fas fa-solid fa-dollar-sign"></i>
           </div>
         </div>
 
@@ -44,7 +51,7 @@
           <label for="people-number">Number of people</label>
           <div class="input-container">
             <input type="text" name="people-number" id="people-number">
-            <span>$</span>
+            <i class="fas fa-solid fa-user"></i>
           </div>
         </div>
       </section>
@@ -52,7 +59,7 @@
       <section class="bill-output">
         <div class="total">
           <div class="total-title">
-            <h2>Tip Amount <span>/person</span></h2>
+            <h2>Tip Amount <span>/ person</span></h2>
           </div>
           <div class="total-value">
             <p id="value">$0.00</p>
@@ -61,16 +68,19 @@
 
         <div class="total">
           <div class="total-title">
-            <h2>Total <span>/person</span></h2>
+            <h2>Total <span>/ person</span></h2>
           </div>
           <div class="total-value">
             <p id="value">$0.00</p>
           </div>
         </div>
+
+        <button class="active-btn">RESET</button>
       </section>
     </div>
   </main>
 
+  <script src="https://kit.fontawesome.com/523e6a491b.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
