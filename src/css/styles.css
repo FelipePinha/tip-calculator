@@ -22,9 +22,9 @@ label {
 }
 
 .calculator {
+    width: 100%;
     display: flex;
     gap: 3rem;
-    width: 100%;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 3px 5px #888;
@@ -42,6 +42,7 @@ label {
 
 .tip-area p {
     color: var(--dark-grayish-cyan);
+    margin-bottom: 0.8rem;
 }
 
 .tip-area .tips {

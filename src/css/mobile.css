@@ -1,0 +1,24 @@
+@media (max-width: 730px) {
+    main {
+        min-width: 100vw;
+    }
+
+    .calculator {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bill-output {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 342px) {
+    .tip-area .tips {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bill-output {
+        width: 100%;
+    }
+}
