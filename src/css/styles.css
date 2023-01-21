@@ -79,6 +79,10 @@ label {
     text-align: center;
 }
 
+.tip-area .tips .active-percent {
+    background-color: var(--strong-cyan);
+}
+
 .bill-output {
     width: 30rem;
     padding: 1.5rem 2.2rem;

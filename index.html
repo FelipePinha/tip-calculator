@@ -39,19 +39,19 @@
         <div class="tip-area">
           <p>Select tip %</p>
           <div class="tips">
-            <button>5%</button>
-            <button>10%</button>
-            <button>15%</button>
-            <button>25%</button>
-            <button>50%</button>
-            <input type="text" name="custom" id="custom" placeholder="Custom">
+            <button id="percent-btn" class="active-percent">5%</button>
+            <button id="percent-btn">10%</button>
+            <button id="percent-btn">15%</button>
+            <button id="percent-btn">25%</button>
+            <button id="percent-btn">50%</button>
+            <input type="text" id="custom" placeholder="Custom">
           </div>
         </div>
 
         <div class="people-amount">
           <label for="people-number">Number of people</label>
           <div class="input-container">
-            <input type="text" name="people-number" id="people-number">
+            <input type="text" name="people-number" id="people-number" value="1">
             <i class="fas fa-solid fa-user"></i>
           </div>
         </div>
@@ -63,7 +63,7 @@
             <h2>Tip Amount <span>/ person</span></h2>
           </div>
           <div class="total-value">
-            <p id="value">$0.00</p>
+            <p id="tip-value">$0.00</p>
           </div>
         </div>
 
@@ -72,16 +72,17 @@
             <h2>Total <span>/ person</span></h2>
           </div>
           <div class="total-value">
-            <p id="value">$0.00</p>
+            <p id="total-value">$0.00</p>
           </div>
         </div>
 
-        <button class="active-btn">RESET</button>
+        <button>RESET</button>
       </section>
     </div>
   </main>
 
   <script src="https://kit.fontawesome.com/523e6a491b.js" crossorigin="anonymous"></script>
+  <script src="./src/ts/main.ts"></script>
 </body>
 
 </html>
