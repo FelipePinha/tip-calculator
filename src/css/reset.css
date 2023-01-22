@@ -17,3 +17,15 @@ body {
     font-family: "Space Mono", sans-serif;
     font-weight: 700;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input {
+    font-family: "Space Mono", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--very-strong-cyan);
+}

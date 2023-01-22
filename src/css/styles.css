@@ -73,12 +73,6 @@ label {
     background-color: var(--strong-cyan);
 }
 
-.tip-area .tips input {
-    color: var(--dark-grayish-cyan);
-    background-color: var(--very-light-grayish-cyan);
-    text-align: center;
-}
-
 .tip-area .tips .active-percent {
     background-color: var(--strong-cyan);
 }
@@ -111,11 +105,11 @@ label {
     transition: background-color 0.3s ease-in;
 }
 
-.bill-output .active-btn {
+.bill-output .active-reset {
     opacity: 1;
     cursor: pointer;
 }
 
-.bill-output button.active-btn:hover {
+.bill-output button.active-reset:hover {
     background-color: var(--light-grayish-cyan);
 }
