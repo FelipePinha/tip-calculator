@@ -51,8 +51,7 @@ label {
     gap: 1rem;
 }
 
-.tip-area .tips button,
-.tip-area .tips input {
+.tip-area .tips button {
     width: 10rem;
     padding: 0.8rem;
     font-size: 1.8rem;
